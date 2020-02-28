@@ -23,8 +23,8 @@ Simple microservice to detect generic tunneling protocols like OpenVPN, Wireguar
 Takes in a valid IPv4 address and returns two fields indicating if a VPN or Tor was identified.
 ```json
 {
-    is_vpn: True
-    is_tor: False
+    "is_vpn": True,
+    "is_tor": False
 }
 ```
 
